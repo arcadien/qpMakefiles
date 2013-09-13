@@ -34,14 +34,13 @@
 #                          http://www.state-machine.com
 # e-mail:                  info@quantum-leaps.com
 #
-# Bash-ized by Aurelien Labrosse aurelien labrosse gmail com 
 #
 # ===========================================================================
 
 CC=avr-gcc
 LIB=avr-ar
 
-QP_HOME=/home/aurelien/Tools/qp/qpc
+QP_HOME=/opt/qp/qpc
 QP_INCDIR=$QP_HOME/include
 AVR_INCDIR=/usr/lib/avr/include/avr/
 QP_PRTDIR=$PWD/

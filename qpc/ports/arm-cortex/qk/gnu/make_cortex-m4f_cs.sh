@@ -34,7 +34,6 @@
 #                          http://www.state-machine.com
 # e-mail:                  info@quantum-leaps.com
 #
-# Bash-ized by Aurelien Labrosse aurelien labrosse gmail com 
 #
 # ===========================================================================
 
@@ -44,7 +43,7 @@ CC=$GNU_ARM/arm-none-eabi-gcc
 ASM=$GNU_ARM/arm-none-eabi-as
 LIB=$GNU_ARM/arm-none-eabi-ar
 
-QP_HOME=/home/aurelien/Tools/qp/qpc
+QP_HOME=/opt/qp/qpc
 QP_INCDIR=$QP_HOME/include
 QP_PRTDIR=$PWD/
 
